@@ -1,1 +1,3 @@
 # portfolio-website
+ This is a space where I showcase my skills, projects, and creative journey in web development and graphic design. With a strong passion for technology and design, I bring ideas to life through clean, functional, and visually engaging digital experiences. Here, you'll find my latest work, insights into my expertise, and ways to connect with me. Whether you're looking for a web developer, a graphic designer, or just want to explore my work, I invite you to take a look around and discover what I have to offer!
+ ![Screenshot 2025-02-02 204648](https://github.com/user-attachments/assets/84d1312c-cb3d-4d08-9edc-5b94f08dd7d1)
