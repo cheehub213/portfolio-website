@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Sixtyfour+Convergence&display=swap');
+/* styling the nav*/
+nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#chiheb1{
+    width:350px;
+    height:350px;
+    border-radius :190px;
+    
+    
+    
+}
+#par1{
+    
+    font-size:75px;
+    text-align: center;
+    padding:50px;
+    justify-content: center;
+    font-family: "Silkscreen", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(188, 231, 206);
+    
+}
+/* styling the section*/
+section{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.headers{
+    
+    font-size: 35px;
+    color: rgb(248, 120, 120);
+    font-family: "Silkscreen", serif;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+#chiheb{
+    height:400px;
+    width:350px;
+    border-radius :20px;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#par2{
+    font-size: 25px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 13;
+    
+}
+
+h2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+a{
+    color:rgb(241, 113, 113);
+    text-decoration:none;
+    text-decoration-color:white ;
+}
+/* styling my services section*/
+#myservices{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+#graphic{
+height:350px;
+width : 400px;
+border-radius: 50px;
+grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#par3{
+    font-size: 20px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 15
+}
+#webdev{
+    height:350px;
+width : 400px;
+border-radius: 50px;
+grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+/* styling my portfolio section*/
+#myportfolio{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+button{
+    color: rgb(248, 120, 120);
+    background-color: white;
+    border-radius: 40px;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width:100px;
+    height:40px;
+}
+button:hover{
+    background-color: #1d1d1d;
+    color: white;
+}
+#par4{
+    font-size: 20px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 15
+}
+#portfolio{
+    font-size: 35px;
+    color: rgb(248, 120, 120);
+    font-family: "Silkscreen", serif;
+  font-weight: 200;
+  font-style: normal;
+  grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 15
+}
+#graphic2{
+    height:350px;
+    width : 400px;
+    border-radius: 50px;
+    grid-row-start: 4;
+        grid-row-end: 7;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    
+}
+
+#webdev2{
+    height:350px;
+    width : 400px;
+    border-radius: 50px;
+    grid-row-start: 4;
+        grid-row-end: 7;
+        grid-column-start: 9;
+        grid-column-end: 10;
+}
+
+/* styling the footer */
+#contact{
+    height:100vh;
+}
+th {
+    background-color: rgb(248, 120, 120);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+    width:30vh;
+}
+
+td {
+    background-color: #0b0b0b;
+    
+}
+th, td {
+    padding: 5px 10px;
+    border: 1px solid #a07979;
+    font-family: "Prata", serif;
+    
+    
+}
+.image{
+    width:40px;
+    height:40px;
+    border-radius: 180px;
+}
